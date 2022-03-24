@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Temp data";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<div>
+    @*  @{
+            var _name = TempData["Name"] as string;
+            var _code = TempData["Code"] as string;
+
+
+        }
+
+        <table>
+            <tr>
+                <td> Name:</td>
+                <td>@_name</td>
+            </tr>
+            <tr>
+                <td> Code:</td>
+                <td>@_code</td>
+            </tr>
+        </table>
+
+        </br>
+    *@
+
+    @Html.ActionLink("Click me to full name", "Details", "TempData")
+
+</div>
