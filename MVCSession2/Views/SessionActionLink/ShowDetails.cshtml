@@ -1,0 +1,22 @@
+﻿@model MVCSession2.Models.CustomerMaster
+@{
+    ViewBag.Title = "ShowDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ShowDetails</h2>
+
+<table>
+    <tr>
+        <td>Name</td>
+        <td>@Model.Customer_Name</td>
+    </tr>
+    <tr>
+        <td>Address</td>
+        <td>@Model.Address</td>
+    </tr>
+    <tr>
+        <td>Postcode</td>
+        <td>@Model.PostCode</td>
+    </tr>
+</table>
